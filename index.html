@@ -24,7 +24,7 @@
             </div>
             <div class="contact">
                 <h3>Registre una nueva vacante</h3>
-                <form>
+                <form id="vacanteForm">
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="puesto">Puesto</label>
@@ -42,7 +42,7 @@
                             <input type="text" class="form-control" id="descripcion" placeholder="Descripción del puesto"> -->
                         </div>
                         <div class="form-group">
-                          <label for="requisito">Requisito</label>
+                          <label for="requisito">Requisitos</label>
                           <textarea class="form-control" id="requisito" rows="3"></textarea>
                           <!-- <textarea name="requisito" rows="5" placeholder="requisito"></textarea>
                           <input type="text" class="form-control" id="requisito" placeholder="Requisito"> -->
@@ -80,5 +80,7 @@
 
         </div>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
